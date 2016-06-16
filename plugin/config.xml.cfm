@@ -11,6 +11,7 @@
 	<settings />
 	<eventHandlers>
 		<eventHandler event="onApplicationLoad" component="plugin.eventHandler" persist="false" />
+        <eventHandler event="onRenderEnd" component="plugin.eventHandler" persist="false" />
 	</eventHandlers>
 	<displayobjects location="global" />
 </plugin>
